@@ -1,0 +1,12 @@
+.produto {
+    background-color: #F5F5F5;
+    width: 270px;
+    height: 250px;
+    border-radius: 4px;
+}
+.curtirolhar {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}

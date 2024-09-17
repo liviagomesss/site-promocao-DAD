@@ -1,0 +1,11 @@
+.promocao{
+    background-color:#DB4444;
+    width: 55px;
+    height: 26px;
+    border-radius: 4px;
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

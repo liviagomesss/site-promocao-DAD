@@ -1,0 +1,49 @@
+.cabecalho{
+    display: flex;
+    background-color: rgb(208, 217, 224);
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 0 16px;
+    /* box-shadow: -15px 0.5px 0px #c7c7c7, -5px -5px 10px #f9f9f9 */
+  
+}
+.lista{
+    display: flex;
+    list-style: none;
+    gap:20px;
+
+}
+.lista li{
+    &:hover{
+        color:blue;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+.container{
+    display: flex;
+    align-items: center;
+    user-select: none;
+    gap: 20px;
+}
+.container .input{
+    align-items: center;
+    user-select: none;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 7px 12px 7px 20px;
+    background-color: aliceblue;
+
+}
+.nome{
+    border: none;
+    background-color: aliceblue;
+    outline: none;
+ 
+}
+.links{
+    display: flex;
+    position: relative;
+    align-items: center;
+}

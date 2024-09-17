@@ -1,0 +1,44 @@
+.promotion{
+    display: flex;
+    background-color: #000000;
+    color: white;
+    justify-content:space-around;
+    align-items: center;
+    height: 48px;
+}
+.shop{
+    margin-left: 18 px;
+}
+.shop:link{
+    color: white;
+    text-decoration: underline;
+}
+.shop:visited{
+    color: white;
+    text-decoration: underline;
+}
+.shop:hover{
+    color: white;
+    text-decoration: underline;
+}
+.shop:active{
+    color: white;
+    text-decoration: underline;
+}
+.dropdown{
+    width: 5%;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 8%;
+}
+.dropdown:focus{
+    outline: none;
+}
+.opcao{
+    color: white;
+    background-color: #000000;
+}
